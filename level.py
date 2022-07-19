@@ -83,7 +83,7 @@ class Level:
         self.player = self.create_tile_group(current_level["player"], "player")
         self.coins = self.create_tile_group(current_level["coin"], "coin")
 
-        self.camera = Camera(scene, self.player, 0, 0, 1920, 1080)
+        self.camera = Camera(scene, self.player, 250, 250, 1920, 1080)
 
         self.font = pygame.font.Font(None, 50)
 
